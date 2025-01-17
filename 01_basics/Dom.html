@@ -3,13 +3,38 @@
 <head>
     <title>DOM with Ravi Kant</title>
 </head>
-<body style="background: darkgray;background-color: whitesmoke;">
+<body style="background: darkgray; background-color: whitesmoke;">
     <div class="Parent">
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
         <div class="day">Thursday</div>
-
     </div>
 </body>
+<script>
+    // Create a new div element
+    const div = document.createElement("div");
+
+    console.log(div);
+
+    // Set class name
+    div.className = "Dom2";
+
+    // Set a random ID
+    div.id = Math.round(Math.random() * 10 + 1);
+
+    // Set the title attribute
+    div.setAttribute("title", "Dom2 Day");
+
+    // Apply styles
+    div.style.backgroundColor = "darkgray";
+    div.style.padding = "12px";
+
+    // Set text content using a text node
+    const addNode = document.createTextNode("Code or coding");
+    div.appendChild(addNode);
+
+    // Append the new div to the body
+    document.body.appendChild(div);
+</script>
 </html>

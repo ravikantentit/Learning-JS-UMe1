@@ -8,18 +8,17 @@
 <body background-color="darkgray">
 </body>
 <script>
-    const div= document.createElement(div)
+    const div= document.createElement("div")
     console.log(div)
     div.className="Dom2"
     div.id=Math.round(Math.random()*10 + 1)
-    div.setAttribute("tittle","Dom2 Day")
+    div.setAttribute("title","Dom2 Day")
     div.style.backgroundColor="darkGray"
     div.style.padding="12px"
-    div.setInnerText="Code or coding"
+   // div.setInnerText="Code or coding"
     const addNode=document.createTextNode("Code or coding")
     div.appendChild(addNode)
 
     document.body.appendChild(div)
-
 </script>
 </html>
