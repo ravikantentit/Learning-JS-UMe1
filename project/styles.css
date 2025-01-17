@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+/* Canvas section styles */
+.canvas {
+    text-align: center;
+    padding: 20px;
+}
+
+.canvas h1 {
+    align-self: center;
+    width: 400px;
+    height: auto; /* Keep height dynamic based on content */
+
+    margin: 15px auto;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/*
+.canvas h1 {
+    border-radius: 15px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}*/
+
+.canvas h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.button#grey {
+    border: 2px solid #808080;
+}
+
+.button#white {
+    border: 2px solid #ffffff;
+}
+
+.button#blue {
+    border: 2px solid #0000ff;
+}
+
+.button#yellow {
+    border: 2px solid #ffff00;
+}
