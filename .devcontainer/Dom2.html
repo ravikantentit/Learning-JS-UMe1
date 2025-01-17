@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM second day</title>
+</head>
+<body background-color="darkgray">
+</body>
+<script>
+    const div= document.createElement(div)
+    console.log(div)
+    div.className="Dom2"
+    div.id=Math.round(Math.random()*10 + 1)
+    div.setAttribute("tittle","Dom2 Day")
+    div.style.backgroundColor="darkGray"
+    div.style.padding="12px"
+    div.setInnerText="Code or coding"
+    const addNode=document.createTextNode("Code or coding")
+    div.appendChild(addNode)
+
+    document.body.appendChild(div)
+
+</script>
+</html>
